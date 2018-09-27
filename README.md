@@ -7,22 +7,22 @@ The subject of Code Institute's first milestone project is a static website for 
  
 ## UX
  
-User Stories (Client)
+User Stories (Client):
 
-As a user A I want to see Photographs of real estate so that I can verify the service.
-As a user B I want to watch Videos of real estate so that I can verify the service.
-As a user C I want to see Panoramic view of real estate so that I can verify the service.
-As a user D I want to see all available services so that I can choose the one that fulfill my needs.
-As a user E I want to book a service so that I can quickly have it sorted.
-As a user F I want to get in touch with the owner so that I can chat about the service.
-As a user G I want to see some creditentials so that I can verify the service.
-As a user H I want to read and understand all available services so that I can choose the one that fulfill my needs.
+* As a user A I want to see Photographs of real estate so that I can verify the service.
+* As a user B I want to watch Videos of real estate so that I can verify the service.
+* As a user C I want to see Panoramic view of real estate so that I can verify the service.
+* As a user D I want to see all available services so that I can choose the one that fulfill my needs.
+* As a user E I want to book a service so that I can quickly have it sorted.
+* As a user F I want to get in touch with the owner so that I can chat about the service.
+* As a user G I want to see some creditentials so that I can verify the service.
+* As a user H I want to read and understand all available services so that I can choose the one that fulfill my needs.
 
-User Stories (Owner)
+User Stories (Owner):
 
-As a user I I want to show my portfolio to visitors so that I can get more clients.
-As a user J I want to allow potential clients a quick and easy book a service online so that I can get more clients.
-As a user G I want to invite visitors to my social accounts so that I can build my online presence and get more clients.
+* As a user I I want to show my portfolio to visitors so that I can get more clients.
+* As a user J I want to allow potential clients a quick and easy book a service online so that I can get more clients.
+* As a user G I want to invite visitors to my social accounts so that I can build my online presence and get more clients.
 
 <!-- Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
