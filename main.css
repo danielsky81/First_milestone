@@ -11,6 +11,10 @@ body {
 	border-style: none;
 }
 
+.navbar {
+	margin-bottom: 0;
+}
+
 /**************Logo Input and size changes*/
 
 .navbar-brand {
@@ -141,4 +145,21 @@ body {
 .navbar-default .navbar-nav>li>a:hover {
 	background: linear-gradient(to bottom, rgba(56,39,113,0.5), rgba(67,148,150,0.5));
 	color: #ffffff;
+}
+
+/****************************Home screen main video section*/
+
+.video-full {
+	margin: 0 auto;
+}
+
+.video-full video {
+	min-height: 600px;
+	width: auto;
+	border-style: none;
+	object-fit: cover;
+}
+
+.embed-responsive {
+	overflow: visible;
 }
