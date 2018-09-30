@@ -1,5 +1,15 @@
 
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 /****************************Navbar*/
+
+.navbar-default {
+	background-color: transparent;
+	border-style: none;
+}
 
 /**************Logo Input and size changes*/
 
@@ -101,11 +111,18 @@
 
 /* Devices > 768px */
 
-/*@media (min-width: 768px) {
-	.navbar-nav {
-		float: right;
+@media (min-width: 768px) {
+	.navbar-brand {
+		float: none;
+		display: flex;
+		justify-content: center;
 	}
-}*/
+	.navbar-nav {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+}
 
 /**************Menu List items*/
 
