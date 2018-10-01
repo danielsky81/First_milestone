@@ -1,7 +1,18 @@
+/****************************Main CSS*/
 
 body {
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.padding-square {
+	padding: 30px;
+}
+
+/****************************Typography*/
+
+h1, h2, h3, h4, p {
+	font-family: 'Roboto', sans-serif;
 }
 
 /****************************Navbar*/
@@ -130,27 +141,36 @@ body {
 
 /**************Menu List items*/
 
+.navbar-collapse {
+	border-style: none;
+}
+
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover  {
-	background: linear-gradient(to bottom, rgba(56,39,113,1), rgba(67,148,150,1));
-	color: #ffffff;
+	background: none;
+	/*color: #ffffff;*/
+	text-decoration: line-through;
+    text-decoration-color: red;
 }
 
 .navbar-default .navbar-nav>li>a {
 	color: rgba(56,39,113,1);
+	transition: all .2s ease-in-out;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-	background: linear-gradient(to bottom, rgba(56,39,113,0.5), rgba(67,148,150,0.5));
-	color: #ffffff;
+	background: none;
+	opacity: 0.5;
+	transform: scale(1.1);
 }
 
-/****************************Section*/
+/****************************Section Video*/
 
-section .container-fluid {
+.top-home-content {
 	padding: 0;
+	min-height: 624px;
 }
 
 .video-full {
@@ -170,8 +190,6 @@ section .container-fluid {
 	overflow: visible;
 }
 
-/****************************Typography*/
-
 .text-welcome {
 	height: 674px;
 	display: flex;
@@ -189,4 +207,23 @@ section .container-fluid {
 	color: #ffffff;
 	margin: 0 auto;
 	align-self: center;
+}
+
+
+/****************************Section Services*/
+
+.img-services {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.img-services img {
+	height: 100px;
+	width: auto;
+}
+
+#aerial-logo {
+	height: 130px;
+	width: auto;
 }
