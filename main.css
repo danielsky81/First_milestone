@@ -149,7 +149,6 @@ h1, h2, h3, h4, p {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover  {
 	background: none;
-	/*color: #ffffff;*/
 	text-decoration: line-through;
     text-decoration-color: red;
 }
@@ -226,4 +225,49 @@ h1, h2, h3, h4, p {
 #aerial-logo {
 	height: 130px;
 	width: auto;
+}
+
+/****************************Footer*/
+
+.img-btm img {
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+}
+
+.button-btm {
+	padding: 50px 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.btn-default {
+	background: linear-gradient(to bottom, rgba(56,39,113,1), rgba(67,148,150,1));
+	color: #ffffff;
+	box-shadow: 8px 10px 10px rgba(56,39,113,0.2);
+}
+
+.btn-default:hover {
+	background: linear-gradient(to bottom, rgba(56,39,113,0.8), rgba(67,148,150,0.8));
+	color: #ffffff;
+}
+
+i {
+	font-size: 30px;
+	color: rgba(67,148,150,1);
+	padding-top: 30px;
+}
+
+.site-by {
+	color: inherit;
+	line-height: 30px;
+	padding: 30px 0;
+}
+
+.site-by:hover,
+.site-by:active,
+.site-by:focus {
+	text-decoration: line-through;
+	text-decoration-color: red;
 }
