@@ -51,11 +51,6 @@ a {
 
 /**************Burger menu changes*/
 
-.navbar-toggle {
-	background-color: none;
-	margin-right: 0;
-}
-
 .navbar-default .navbar-toggle {
 	border-color: transparent;
 }
@@ -66,16 +61,10 @@ a {
 	background-color: transparent;
 }
 
-.navbar-default .navbar-toggle .top-bar {
-	background: rgba(56,39,113,1);
-}
-
-.navbar-default .navbar-toggle .middle-bar {
-	background: linear-gradient(to bottom, rgba(56,39,113,1), rgba(67,148,150,1));
-}
-
+.navbar-default .navbar-toggle .top-bar,
+.navbar-default .navbar-toggle .middle-bar,
 .navbar-default .navbar-toggle .bottom-bar {
-	background: rgba(67,148,150,1);
+	background: #382771;
 }
 
 .navbar-toggle .icon-bar {
@@ -251,18 +240,17 @@ a {
 }
 
 .button-btm {
-	padding: 50px 0;
+	padding-bottom: 50px;
+	padding-top: 10px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
 
 .btn-default {
-	/*background: linear-gradient(to bottom, rgba(56,39,113,1), rgba(67,148,150,1));*/
-	/*background: #382771;*/
+	background: #382771;
 	border-color: #382771;
-	/*color: #fff;*/
-	color: #382771;
+	color: #ffffff;
 	box-shadow: 8px 10px 10px rgba(56,39,113,0.2);
 	border-width: 2px;
 }
@@ -271,10 +259,8 @@ a {
 .btn-default:focus,
 .btn-default:active,
 .btn-default:active:hover {
-/*	background: linear-gradient(to bottom, rgba(56,39,113,0.8), rgba(67,148,150,0.8));*/
-/*	color: #ffffff;*/
-	background: #382771; 
-	color: #ffffff;
+	background: #ffffff; 
+	color: #382771;
 	border-color: #382771;
 	box-shadow: none;
 }
