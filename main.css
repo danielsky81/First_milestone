@@ -31,6 +31,7 @@ a {
 .navbar-default {
 	background-color: transparent;
 	border-style: none;
+	z-index: 2;
 }
 
 .navbar {
@@ -85,13 +86,11 @@ a {
 /**************Burger menu animation*/
 /*borrowed from https://julienmelissas.com/animated-x-icon-for-the-bootstrap-navbar-toggle/*/
 
-.navbar-toggle:hover .icon-bar,
 .navbar-toggle:focus .icon-bar,
 .navbar-toggle:active .icon-bar {
   	transition: all 0.2s ease-in-out;
 }
 
-.navbar-toggle:hover .top-bar,
 .navbar-toggle:focus .top-bar,
 .navbar-toggle:active .top-bar {
   	transform: rotate(38deg);
@@ -102,13 +101,11 @@ a {
   	-webkit-transform-origin: 10% 10%;
 }
 
-.navbar-toggle:hover .middle-bar,
 .navbar-toggle:focus .middle-bar,
 .navbar-toggle:active .middle-bar {
  	opacity: 0;
 }
 
-.navbar-toggle:hover .bottom-bar,
 .navbar-toggle:focus .bottom-bar,
 .navbar-toggle:active .bottom-bar {
   	transform: rotate(-38deg);
@@ -168,18 +165,19 @@ a {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover  {
 	background: none;
-	color: none;
+	color: #382771;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: rgba(56,39,113,1);
+	color: #382771;
 	transition: all .2s ease-in-out;
 }
 
+.navbar-default .navbar-nav>li>a:active,
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
 	background: none;
-	opacity: 0.5;
+	color: #382771;
 	transform: scale(1.1);
 }
 
@@ -213,7 +211,6 @@ a {
 	justify-content: center;
 	position: absolute;
 	text-align: center;
-	width: 100%;
 	max-width: 1200px;
 	top: 50px;
 }
@@ -270,7 +267,10 @@ a {
 	border-width: 2px;
 }
 
-.btn-default:hover {
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default:active:hover {
 /*	background: linear-gradient(to bottom, rgba(56,39,113,0.8), rgba(67,148,150,0.8));*/
 /*	color: #ffffff;*/
 	background: #382771; 
@@ -299,4 +299,10 @@ i:hover {
 
 .site-by>span:hover {
 	 border-bottom: 2px solid;
+}
+
+.footer-logo {
+	height: 50px;
+	padding-bottom: 10px;
+	width: auto;
 }
