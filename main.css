@@ -12,6 +12,7 @@ body {
 
 a:focus, a:hover {
 	text-decoration: none;
+	color: #382771;
 }
 
 /****************************Typography*/
@@ -22,6 +23,7 @@ h1, h2, h3, h4, p {
 
 a {
 	font-family: 'Work Sans', sans-serif;
+	color: #382771;
 }
 
 /****************************Navbar*/
