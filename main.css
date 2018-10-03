@@ -15,10 +15,18 @@ a, a:focus, a:hover {
 	color: #382771;
 }
 
+form {
+	padding-top: 30px;
+}
+
 /****************************Typography*/
 
 h1, h2, h3, h4, p {
 	font-family: 'Roboto', sans-serif;
+}
+
+.font-roboto {
+	font-family: 'Roboto', sans-serif !important;
 }
 
 .font-abril-fatface {
@@ -235,13 +243,6 @@ h1, h2, h3, h4, p {
 	width: auto;
 }
 
-/****************************ABOUT*/
-
-.img-container img {
-	width: 100%;
-	height: auto;
-}
-
 /****************************Footer*/
 
 .img-btm img {
@@ -262,7 +263,7 @@ h1, h2, h3, h4, p {
 	background: #382771;
 	border-color: #382771;
 	color: #ffffff;
-	box-shadow: 8px 10px 10px rgba(56,39,113,0.2);
+	box-shadow: 0px 16px 18px -10px rgba(56,39,113,0.4);
 	border-width: 2px;
 }
 
@@ -302,4 +303,22 @@ i:hover {
 	height: 50px;
 	padding-bottom: 10px;
 	width: auto;
+}
+
+/****************************ABOUT*/
+
+.img-container img {
+	width: 100%;
+	height: auto;
+}
+
+/****************************CONTACT*/
+
+label {
+	float: left;
+}
+
+.form-control {
+	color: #382771;
+	border-color: #382771;
 }
