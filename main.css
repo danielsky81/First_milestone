@@ -322,3 +322,15 @@ label {
 	color: #382771;
 	border-color: #382771;
 }
+
+/****************************BOOKING*/
+
+.checkbox label {
+	clear: both;
+	padding: 10px 0;
+	font-size: 18px;
+}
+
+input[type=checkbox] {
+	margin: 5px 0 0;
+}
