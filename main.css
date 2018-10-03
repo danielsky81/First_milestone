@@ -10,7 +10,7 @@ body {
 	padding: 30px;
 }
 
-a:focus, a:hover {
+a, a:focus, a:hover {
 	text-decoration: none;
 	color: #382771;
 }
@@ -21,9 +21,12 @@ h1, h2, h3, h4, p {
 	font-family: 'Roboto', sans-serif;
 }
 
-a {
+.font-abril-fatface {
+	font-family: 'Abril Fatface', cursive;
+}
+
+.font-work-sans {
 	font-family: 'Work Sans', sans-serif;
-	color: #382771;
 }
 
 /****************************Navbar*/
@@ -170,6 +173,8 @@ a {
 	transform: scale(1.1);
 }
 
+/****************************HOME*/
+
 /****************************Section Video*/
 
 .top-home-content {
@@ -205,7 +210,6 @@ a {
 }
 
 .text-welcome>h1 {
-	font-family: 'Abril Fatface', cursive;
 	font-size: 50px;
 	color: #ffffff;
 	margin: 0 auto;
@@ -229,6 +233,13 @@ a {
 #aerial-logo {
 	height: 130px;
 	width: auto;
+}
+
+/****************************ABOUT*/
+
+.img-container img {
+	width: 100%;
+	height: auto;
 }
 
 /****************************Footer*/
