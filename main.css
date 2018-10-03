@@ -334,3 +334,13 @@ label {
 input[type=checkbox] {
 	margin: 5px 0 0;
 }
+
+/****************************SERVICES*/
+
+.vid-container {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}

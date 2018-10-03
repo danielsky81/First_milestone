@@ -93,6 +93,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
+- Photo of HOUSES by Daniel Abadia on Unsplash
+- Photo of OPEN SIGN by Artem Bali on Unsplash
+- Photo of CAMERA LENSE by ShareGrid on Unsplash
+
 ### Media
 - The photos used in this site were obtained from ...
 
