@@ -327,6 +327,23 @@ i:hover {
 	height: auto;
 }
 
+blockquote {
+	font-size: 14px;
+	border-left-width: 2px;
+	border-left-color: rgba(56,39,113,0.5);
+}
+
+.blockquote-reverse {
+	font-size: 14px;
+	border-right-width: 2px;
+	border-right-color: rgba(56,39,113,0.5);
+}
+
+blockquote footer {
+	font-size: 90%;
+	color: rgba(56,39,113,0.5);
+}
+
 /****************************CONTACT*/
 
 label {

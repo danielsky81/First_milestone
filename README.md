@@ -1,6 +1,8 @@
-# Your Project's Name
+# Real Estate Digital Services
 
-The subject of Code Institute's first milestone project is a static website for a Real Estate Photography & Video services. 
+The _Real Estate Digital Services_ website is a 1st Milestone project build for a [Code Institute's](https://www.codeinstitute.net/) Full Stack Web Developer Course.
+
+The company is a professional Real Estate Photography and Videography Service provider that wants to promote their services and showcase their craft online in order to reach more clients. 
 
 <!-- One or two paragraphs providing an overview of your project. -->
 <!-- Essentially, this part is your sales pitch. -->
@@ -9,20 +11,21 @@ The subject of Code Institute's first milestone project is a static website for 
  
 User Stories (Client):
 
-* As a user A I want to see Photographs of real estate so that I can verify the service.
-* As a user B I want to watch Videos of real estate so that I can verify the service.
-* As a user C I want to see Panoramic view of real estate so that I can verify the service.
-* As a user D I want to see all available services so that I can choose the one that fulfill my needs.
-* As a user E I want to book a service so that I can quickly have it sorted.
-* As a user F I want to get in touch with the owner so that I can chat about the service.
-* As a user G I want to see some creditentials so that I can verify the service.
-* As a user H I want to read and understand all available services so that I can choose the one that fulfill my needs.
+* As a user _A_, I want to see Photographs of real estate so that I can verify the service.
+* As a user _B_, I want to watch Videos of real estate so that I can verify the service.
+* As a user _C_, I want to see Panoramic view of real estate so that I can verify the service.
+* As a user _D_, I want to see Aerial view of real estate so that I can verify the service. 
+* As a user _E_, I want to see all available services so that I can choose the one that fulfill my needs.
+* As a user _F_, I want to book a service so that I can have my listing advertised.
+* As a user _G_, I want to get in touch with the business owner so that I can chat about the service.
+* As a user _H_, I want to see some creditentials so that I can verify the service.
+* As a user _I_, I want to read and understand all available services so that I can choose the one that fulfill my needs.
 
 User Stories (Owner):
 
-* As a user I I want to show my portfolio to visitors so that I can get more clients.
-* As a user J I want to allow potential clients a quick and easy book a service online so that I can get more clients.
-* As a user G I want to invite visitors to my social accounts so that I can build my online presence and get more clients.
+* As a user _J_, I want to show my portfolio to visitors so that I can get more clients.
+* As a user _K_, I want to allow potential clients a quick and easy book a service online so that I can get more clients.
+* As a user _L_, I want to invite visitors to my social accounts so that I can build my online presence and get more clients.
 
 <!-- Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
