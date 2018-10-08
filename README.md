@@ -49,7 +49,9 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Features Left to Implement
 - Another feature idea
 
-! Mentione the calendar picker which requires the JS input
+- Mentione the calendar picker which requires the JS input
+- JS click event for the menu burger
+- Smooth transition between pages (attm there is a visible flash on change)
 
 ## Technologies Used
 
@@ -57,9 +59,20 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
-- ImageOptim to reduce the size of images
+- [ImageOptim](https://imageoptim.com/mac)
+	- to reduce image file sizes for faster web pages
+- Bootstrap
+- HTML5
+- CSS
 
 ## Testing
+
+- simple python server for live preview
+- Chrome Deve Tools
+- Chrome Lighthouse
+- Chrome | Firefox | Safari | Internet Explorer
+- desktop | mobile | tablet
+- html & css checker <https://validator.w3.org/nu/>
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -96,12 +109,17 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
-- Photo of HOUSES by Daniel Abadia on Unsplash
-- Photo of OPEN SIGN by Artem Bali on Unsplash
-- Photo of CAMERA LENSE by ShareGrid on Unsplash
+
+- CSS - Burger Menu Animation borrowed from [Julien Melissas](https://julienmelissas.com/animated-x-icon-for-the-bootstrap-navbar-toggle/)
+
 
 ### Media
-- The photos used in this site were obtained from ...
+
+<!-- The photos used in this site were obtained from ... -->
+
+- Photo of HOUSES by _Daniel Abadia_ on [Unsplash](https://unsplash.com/)
+- Photo of OPEN SIGN by _Artem Bali_ on [Unsplash](https://unsplash.com/)
+- Photo of CAMERA LENSE by _ShareGrid_ on [Unsplash](https://unsplash.com/)
 
 ### Acknowledgements
 

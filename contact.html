@@ -7,45 +7,47 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="main.css" />
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans|Abril+Fatface|Roboto:400,500,700&amp;subset=latin-ext" rel="stylesheet" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+	<link rel="shortcut icon" type="image/png" href="Assets/favicon.png" />
 	<title>REDS - Real Estate Digital Services</title>
-	<link rel="shortcut icon" type="image/png" href="Assets/favicon.png">
 </head>
 
 <body>
 	
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<!-- Mobile display Menu-->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-	        		<span class="icon-bar top-bar"></span>
-			        <span class="icon-bar middle-bar"></span>
-			        <span class="icon-bar bottom-bar"></span>
-			    </button>
-			    <a class="navbar-brand" href="index.html">
-	        		<img alt="Real Estate Digital Services" src="Assets/Reds_logo.png">
-	      		</a>
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- Mobile display Menu-->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+		        		<span class="icon-bar top-bar"></span>
+				        <span class="icon-bar middle-bar"></span>
+				        <span class="icon-bar bottom-bar"></span>
+				    </button>
+				    <a class="navbar-brand" href="index.html">
+		        		<img alt="Real Estate Digital Services" src="Assets/Reds_logo.png">
+		      		</a>
+		      	</div>
+				<!-- Menu list items -->
+		      	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      		<ul class="nav navbar-nav text-center">
+		      			<li><a href="index.html" class="font-work-sans">HOME</a></li>
+		      			<li><a href="services.html" class="font-work-sans">SERVICES</a></li>
+		      			<li><a href="booking.html" class="font-work-sans">ONLINE BOOKING</a></li>
+		      			<li><a href="about.html" class="font-work-sans">ABOUT</a></li>
+		      			<li class="active"><a href="contact.html" class="font-work-sans"><span class="current">CONTACT</span></a></li>
+		      		</ul>
+	      		</div>
 	      	</div>
-			<!-- Menu list items -->
-	      	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      		<ul class="nav navbar-nav text-center">
-	      			<li><a href="index.html" class="font-work-sans">HOME</a></li>
-	      			<li><a href="services.html" class="font-work-sans">SERVICES</a></li>
-	      			<li><a href="booking.html" class="font-work-sans">ONLINE BOOKING</a></li>
-	      			<li><a href="about.html" class="font-work-sans">ABOUT</a></li>
-	      			<li class="active"><a href="contact.html" class="font-work-sans"><span class="current">CONTACT</span></a></li>
-	      		</ul>
-      		</div>
-      	</div>
-	</nav>
+		</nav>
+	</header>
 
 	<section>
 		<div class="container-fluid">
 			<div class="row text-center">
 				<div class="img-container col-sm-offset-2 col-sm-8 col-sm-offset-2">
-					<img src="Assets/contact.jpg">
+					<img src="Assets/contact.jpg" alt="picture of a wooden sign with a word open">
 				</div>
 				<div class="padding-square col-xs-offset-1 col-xs-10 col-xs-offset-1 col-md-offset-2 col-md-8 col-md-offset-2">
 					<h3>We are open for business 24/7</h3>
@@ -55,7 +57,7 @@
 					<p>Please choose the most suitable way to reach us and we will be more than happy to chat or get back to you as soon as possible.</p>
 				</div>
 				<div class="col-sm-offset-4 col-sm-4 col-sm-offset-4">
-					<a href="tel: +353-123-456-789"><i class="fas fa-phone"><span class="font-work-sans">&nbsp;123&nbsp;456&nbsp;789</span></i></a>
+					<a href="tel:+353-123-456-789"><i class="fas fa-phone"><span class="font-work-sans">&nbsp;123&nbsp;456&nbsp;789</span></i></a>
 				</div>
 				<div class="col-sm-offset-4 col-sm-4 col-sm-offset-4">
 					<a href="mailto:hello@reds.com"><i class="fas fa-envelope"><span class="font-work-sans">&nbsp;hello&commat;reds.com</span></i></a>
@@ -63,16 +65,16 @@
 				<div class="col-xs-offset-1 col-xs-10 col-xs-offset-1 col-sm-offset-2 col-sm-8 col-sm-offset-2">
 					<form>
 						<div class="form-group font-roboto">
-					    	<label for="exampleInputName2">Name</label>
-    						<input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+					    	<label for="name">Name</label>
+    						<input type="text" class="form-control" id="name" placeholder="Jane Doe">
 					 	</div>
 					 	<div class="form-group font-roboto">
-					    	<label for="exampleInputEmail1">Email address</label>
-					    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					    	<label for="email">Email address</label>
+					    	<input type="email" class="form-control" id="email" placeholder="Email">
 					 	</div>
 					 	<div class="form-group font-roboto">
-					 		<label for="exampleInputName2">Comments</label>
-					 		<textarea type="text" class="form-control" placeholder="Text input" rows="3"></textarea>
+					 		<label for="comment">Comments</label>
+					 		<textarea class="form-control" placeholder="Text input" id="comment" rows="3"></textarea>
 					 	</div>
 					 	<button type="submit" class="btn btn-default">Submit</button>
 					</form>
@@ -86,7 +88,7 @@
 			<div class="row">
 				<h3 class="padding-square text-center">Book Your Property Shoot with <img class="footer-logo" alt="Real Estate Digital Services" src="Assets/Reds_logo.png"> Now!</h3>
 				<div class="button-btm">
-					<a href="booking.html"><button type="button" class="btn btn-default btn-lg">ONLINE BOOKING</button></a>
+					<a class="btn btn-default btn-lg" href="booking.html" role="button">ONLINE BOOKING</a>
 				</div>
 				<div class="text-center">
 					<a href="https://facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook-square col-xs-3 col-sm-1 col-md-1"></i></a>

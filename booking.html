@@ -7,39 +7,41 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="main.css" />
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans|Abril+Fatface|Roboto:400,500,700&amp;subset=latin-ext" rel="stylesheet" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	<title>REDS Booking form</title>
-	<link rel="shortcut icon" type="image/png" href="Assets/favicon.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+	<link rel="shortcut icon" type="image/png" href="Assets/favicon.png" />
+	<title>REDS - Real Estate Digital Services</title>
 </head>
 
 <body>
 	
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<!-- Mobile display Menu-->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-	        		<span class="icon-bar top-bar"></span>
-			        <span class="icon-bar middle-bar"></span>
-			        <span class="icon-bar bottom-bar"></span>
-			    </button>
-			    <a class="navbar-brand" href="index.html">
-	        		<img alt="Real Estate Digital Services" src="Assets/Reds_logo.png">
-	      		</a>
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- Mobile display Menu-->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+		        		<span class="icon-bar top-bar"></span>
+				        <span class="icon-bar middle-bar"></span>
+				        <span class="icon-bar bottom-bar"></span>
+				    </button>
+				    <a class="navbar-brand" href="index.html">
+		        		<img alt="Real Estate Digital Services" src="Assets/Reds_logo.png">
+		      		</a>
+		      	</div>
+				<!-- Menu list items -->
+		      	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      		<ul class="nav navbar-nav text-center">
+		      			<li><a href="index.html" class="font-work-sans">HOME</a></li>
+		      			<li><a href="services.html" class="font-work-sans">SERVICES</a></li>
+		      			<li class="active"><a href="booking.html" class="font-work-sans"><span class="current">ONLINE BOOKING</span></a></li>
+		      			<li><a href="about.html" class="font-work-sans">ABOUT</a></li>
+		      			<li><a href="contact.html" class="font-work-sans">CONTACT</a></li>
+		      		</ul>
+	      		</div>
 	      	</div>
-			<!-- Menu list items -->
-	      	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      		<ul class="nav navbar-nav text-center">
-	      			<li><a href="index.html" class="font-work-sans">HOME</a></li>
-	      			<li><a href="services.html" class="font-work-sans">SERVICES</a></li>
-	      			<li class="active"><a href="booking.html" class="font-work-sans"><span class="current">ONLINE BOOKING</span></a></li>
-	      			<li><a href="about.html" class="font-work-sans">ABOUT</a></li>
-	      			<li><a href="contact.html" class="font-work-sans">CONTACT</a></li>
-	      		</ul>
-      		</div>
-      	</div>
-	</nav>
+		</nav>
+	</header>
 
 	<section>
 		<div class="container-fluid">
@@ -77,24 +79,24 @@
 				<div class="col-xs-offset-1 col-xs-10 col-xs-offset-1 col-sm-offset-2 col-sm-8 col-sm-offset-2">
 					<form>
 						<div class="form-group font-roboto">
-					    	<label for="exampleInputName2">Name</label>
-    						<input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+					    	<label for="name">Name</label>
+    						<input type="text" class="form-control" id="name" placeholder="Jane Doe">
 					 	</div>
 					 	<div class="form-group font-roboto">
-					    	<label for="exampleInputEmail1">Property address</label>
-					    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Address">
+					    	<label for="address">Property address</label>
+					    	<input type="text" class="form-control" id="address" placeholder="Address">
 					 	</div>
 					 	<div class="form-group font-roboto">
-					    	<label for="exampleInputEmail1">Email address</label>
-					    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					    	<label for="email">Email address</label>
+					    	<input type="email" class="form-control" id="email" placeholder="Email">
 					 	</div>
 					 	<div class="form-group font-roboto">
-					    	<label for="exampleInputEmail1">Phone number</label>
-					    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Phone">
+					    	<label for="phone">Phone number</label>
+					    	<input type="tel" class="form-control" id="phone" placeholder="Phone">
 					 	</div>
 					 	<div class="form-group font-roboto">
-					 		<label for="exampleInputName2">Comments</label>
-					 		<textarea type="text" class="form-control" placeholder="Text input" rows="3"></textarea>
+					 		<label for="comments">Comments</label>
+					 		<textarea class="form-control" id="comments" placeholder="Text input" rows="3"></textarea>
 					 	</div>
 					 	<button type="submit" class="btn btn-default">Submit</button>
 					</form>
