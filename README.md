@@ -120,6 +120,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - Photo of HOUSES by _Daniel Abadia_ on [Unsplash](https://unsplash.com/)
 - Photo of OPEN SIGN by _Artem Bali_ on [Unsplash](https://unsplash.com/)
 - Photo of CAMERA LENSE by _ShareGrid_ on [Unsplash](https://unsplash.com/)
+- Photo of ONLINE-BOOKING by _rawpixel_ on [Unsplash](https://unsplash.com/)
 
 ### Acknowledgements
 
