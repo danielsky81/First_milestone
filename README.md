@@ -8,7 +8,7 @@ A _Real Estate Digital Services_ company that specialise in Real Estate Photogra
  
 ## UX
 
-The UX process played a crucial role in the design of the _Real Estate Digital Services_ website whether it was a initial task of identifing users and determining their needs, deciding on the structure or selecting a visual language. 
+The UX process played a crucial role in the design of the _Real Estate Digital Services_ website whether it was an initial task of identifying users and determining their needs, deciding on the structure or selecting a visual language. 
 
 ### Strategy and Scope
 
@@ -24,11 +24,11 @@ Based on the above brief the following user stories were identified:
 - As a user _B_, I want to watch Videos of real estate so that I can verify the service.
 - As a user _C_, I want to see Interactive Panoramic view of real estate so that I can verify the service.
 - As a user _D_, I want to see Aerial view of real estate so that I can verify the service. 
-- As a user _E_, I want to go through all available services so that I can choose the one that fulfill my needs.
+- As a user _E_, I want to go through all available services so that I can choose the one that fulfil my needs.
 - As a user _F_, I want to book a service so that I can have my listing advertised asap.
 - As a user _G_, I want to get in touch with the business owner whether by phone or email so that I can discuss the services.
 - As a user _H_, I want to see some testimonials so that I can verify the quality of the service.
-- As a user _I_, I want to read description and understand all available services so that I can choose the one that fulfill my needs.
+- As a user _I_, I want to read description and understand all available services so that I can choose the one that fulfil my needs.
 
 **User Stories (Business Owner)**:
 
@@ -50,10 +50,10 @@ The following wireframes were created in order to provide a starting point for t
 
 Once the wireframes were in place, the following visuals were introduced:
 
-- The base colors for the site are dark blue/purple-ish and white. These colors were carefully selected based on the color psychology and aestetics. The color blue is associated with knowledge and trust while color white with virtue and cleanliness. Both colors reflects the business characteristics.
+- The base colors for the site are dark blue/purple and white. These colors were carefully selected based on the color psychology and aesthetics. The color blue is associated with knowledge and trust while color white with virtue and cleanliness. Both colors reflects the business characteristics.
 - Typography is limited to two main typefaces that are sans serif which makes them readable on both mobile and larger devices. The mentioned typefaces are Roboto and Work Sans. The other typeface is Abril Fatface but it is only used once on the landing page. All typefaces are from [Google Fonts](https://fonts.google.com/).
 - The website logos are custom made to reflect the services and make the site memorable.
-- The website assets include video and photographs, some delivered by client and others taken from stock photography where neccessery. They were carefully selected to be self explanatory in order to help in website navigation. 
+- The website assets include video and photographs, some delivered by client and others taken from stock photography where necessary. They were carefully selected to be self explanatory in order to help in website navigation. 
 
 ## Features
 
@@ -65,23 +65,23 @@ The header (navigation) consists of business logotype and navigation bar that ch
 
 ### Main Content
 
-The main content differ between the web pages with an exception to the main image. All of the web pages have a "hero" image (or video on home page) that visualy bond with the page content.
+The main content differ between the web pages with an exception to the main image. All of the web pages have a "hero" image (or video on home page) that visually bond with the page content.
 
 The _landing page_ (_home_) feature a promotional video of a real estate that covers either all or most of the viewport, depending on the device. Below the video, the user will find some short sentences describing the company and a list of all available services. Each service block consists of a logo, name and brief description. Each elements of that blocks are linked to the services page that provides further information. The closing element on the home page content is a real estate image providing a glimpse of the company's photography skills.
 
 The _services_ page feature an landscape image of properties and short introduction. The main part of the page consists of available services blocks made of service logo, name and description. Each service block has a sample media element at the bottom of the block, providing a visual overview of the particular service, whether it is a Photograph, Video, Aerial Image or 360&deg; Interactive Panorama.
 
-The _online booking_ page feature an image of a person holding a phone and a short description about the page. The main element of the page is a form that requires user input in order to schedule a service appointment for selected service or services. The form consists of checkboxes, clearly labeld input fields which prevents users from inserting incorrect characters or submitting form without valid information and a selfexplanatory "submit" button.
+The _online booking_ page feature an image of a person holding a phone and a short description about the page. The main element of the page is a form that requires user input in order to schedule a service appointment for selected service or services. The form consists of checkboxes, clearly label input fields which prevents users from inserting incorrect characters or submitting form without valid information and a self explanatory "submit" button.
 
-The _about_ page feature an image of a camera lens, a short sentence with bulletpoints outlining the reasons behind the exceptional service and clients testimonials as a proof of quality service.
+The _about_ page feature an image of a camera lens, a short sentence with bullet points outlining the reasons behind the exceptional service and clients testimonials as a proof of quality service.
 
-The _contact_ page feature an image of a "open" sign and short sentence stating the company availability for work. The main part of the page consists of a phone number and email address, with both being activated when clicked on allowing for effortless and instant contact via phone or email. The third way of contact is through a online form which consists of a input fields and "submit" button. 
+The _contact_ page feature an image of a "open" sign and short sentence stating the company availability for work. The main part of the page consists of a phone number and email address, with both being activated when clicked on allowing for effortless and instant contact via phone or email. The third way of contact is through an online form which consists of a input fields and "submit" button. 
 
 ### Footer
 
-The footer elements of the website consists of a sentence encouraging users to book a property photo shoot with the company and provids a link to the online booking form. The link is allocated to a "book online" button with its design features making it clearly visible on the page. The users will find as well all the links to the social media that the company has its presence at. The social media links are in form of icons directly related to their brands. The last element is a link to web developer portfolio page. The button, social media icons and the web developer elements change their appearance on hover for better user interaction. The footer elements of the website are consistant through out the page with an exception to the _online booking_ page where the encouraging sentence and button are replace with gratitude sentence.
+The footer elements of the website consists of a sentence encouraging users to book a property photo shoot with the company and provides a link to the online booking form. The link is allocated to a "book online" button with its design features making it clearly visible on the page. The users will find as well all the links to the social media that the company has its presence at. The social media links are in form of icons directly related to their brands. The last element is a link to web developer portfolio page. The button, social media icons and the web developer elements change their appearance on hover for better user interaction. The footer elements of the website are consistent throughout the page with an exception to the _online booking_ page where the encouraging sentence and button are replace with gratitude sentence.
 
-All of the website contents are responsive and resize nicely based on the device sizes. All text elements are centered and spaced evenly for better readability. The visual design is consistent across all the pages. 
+All of the website contents are responsive and resize nicely based on the device sizes. All text elements are centred and spaced evenly for better readability. The visual design is consistent across all the pages. 
  
 ### Existing Features
 
@@ -91,9 +91,9 @@ The main website features are as follows:
 - All service elements on _home_ page have a link that redirect users to the chosen service on the _services_ page.
 - "Book online" button allows users to be instantly redirected to the _online booking_ page.
 - Input forms allows users to book a service appointment (_online booking_) or request a contact (_contact_) by filling out the input fields.
-- Active links on phone number and email address to allow efortless and imediate contact either by making a phone call (mobile, facetime, etc.) or by creating an email template to be filled with email body and send over.
+- Active links on phone number and email address to allow effortless and immediate contact either by making a phone call (mobile, facetime, etc.) or by creating an email template to be filled with email body and send over.
 - Direct links to social media via social media icons at the bottom of the pages.
-- Drop down menu with links to all pages on small devices that can be reveal and collaps using a burger menu icon.
+- Drop down menu with links to all pages on small devices that can be reveal and collapse using a burger menu icon.
 
 ### Features Left to Implement
 
@@ -101,7 +101,7 @@ The features that were not yet possible to implement due to static website requi
 
 - Interactive calendar picker to allow single date and date range selection.
 - Smoother transition between pages in order to remove the flicker effect.
-- JavaScript click event to improve menu burger animation on iphone. 
+- JavaScript click event to improve menu burger animation on mobile devices. 
 
 ## Technologies Used
 
@@ -109,7 +109,7 @@ The following languages, technologies and tools were used to construct this webs
 
 - [HTML5](https://www.w3.org/TR/html52/) - Core structure of the website.
 - [CSS](https://www.w3.org/Style/CSS/) - Main style of the website.
-- [Bootstrap](https://getbootstrap.com/docs/3.3/) - Used to develope responsive website fast and efficiently.
+- [Bootstrap](https://getbootstrap.com/docs/3.3/) - Used to develop responsive website fast and efficiently.
 - [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript) - Required for Bootstrap and 360player plugin.
 - [JQuery](https://jquery.com) - Required for Bootstrap.
 - [ImageOptim](https://imageoptim.com/mac) - Used to reduce image file sizes for faster website requests.
@@ -124,53 +124,127 @@ The following languages, technologies and tools were used to construct this webs
 - [Adobe Photoshop](https://www.photoshop.com/) - Photo editing software used to color correct and crop images.
 - [Sketch App](https://www.sketchapp.com/) - Vector graphics editor used to create logos for the website.
 - [Embedded 360-degree player](https://360player.io/) - Online plugin used to display a 360-degree image on the website.
-- [Google Fonts](https://fonts.google.com/) - Typefaces used to style the websiste.
+- [Google Fonts](https://fonts.google.com/) - Typefaces used to style the website.
 
 ## Testing
 
-- simple python server for live preview
-- Chrome Deve Tools
+During the website development stage I have conducted two types of testing, manual and automated. The manual testing was ongoing throughout the whole development stage while the automated test was run when the project was at its finish.
+
+### Manual Testing
+
+The manual testing consisted mainly of the following technologies/tools:
+
+- Chrome DevTools
+
+Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. This tools allows me to instantly preview and edit my pages but I was mainly using it to diagnose problems and fix them quickly. 
+
+- Web browsers:
+	+ Chrome
+	+ Firefox
+	+ Safari
+	+ Internet Explorer
+
+I made sure to use browser prefixes where necessary but to make sure that there are no errors with the website I was doing a cross browser testing from time to time. It basically consisted of running the site on these browsers, changing the size of the browser window and where possible using the native developer tools to check site responsiveness and functionality. These tests were run on desktop, tablet and mobile devices.
+
+- Devices:
+	+ desktop
+	+ tablet
+	+ mobile
+
+I run a manual testing on few types of devices whenever I had a chance but mainly I was testing the webiste using desktop, tablet and mobile phone, so I could cover the most popular screen sizes.
+
+- Operating Systems:
+	+ macOS / iOS
+	+ Android
+
+The Device testing part consisted of running the website on following Operating Systems - macOS, iOS and Android.
+
+- User Stories Testing
+
+The following user stories from the UX section were tested to make sure everything work as intended.
+
+1. Users "A", "B", "C", "D", "E", "I" & "J" wants to see examples of either one or all of the available services and read about each of them. The following steps needs to be conduct in that case:
+    1. Go to the "Services" page and scroll to the service of choice, or
+    2. From "Home" page click/tap on the name, logo or short description of the service of interest to verify that the link redirects to the selected service on the "Services" page.
+
+2. User "F" and "K" wants to book service online. The following steps needs to be conduct in that case:
+	1. Go to the "Online Booking" page, or
+	2. Click/tap on the "Online Booking" button at the bottom of any other page to verify that the link redirects to "Online Booking" page.
+	3. Click/tap on the checkbox beside the service of interest to verify selection.
+	4. Click/tap on the several checkboxes to verify selections.
+	4. Fill the input fields with the required data by clicking/tapping on the field to verify access.
+	5. Make sure to insert the related data in each of the fields:
+		1. Try to submit the empty form and verify that an error message about the required fields appears.
+		2. Try to submit the form without name and verify that a relevant error message appears.
+		3. Try to submit the form without email and verify that a relevant error message appears.
+		4. Try to submit the form with an invalid email address and verify that a relevant error message appears.
+		5. Try to submit the form without phone and verify that a relevant error message appears.
+		6. Try to submit the form with all inputs valid and verify that no error message appears.
+
+3. User "G" wants to get in touch with the company. The following steps needs to be conduct in that case:
+    1. Go to the "Contact" page.
+    2. Click/tap on the phone number to verify that a call dials.
+    3. Click/tap on the email address to verify that a new email generates from your mailbox of choice.
+    4. Fill the input fields with the required data by clicking/tapping on the field to verify access.
+    	1. Try to submit the empty form and verify that an error message about the required fields appears.
+		2. Try to submit the form without name and verify that a relevant error message appears.
+		3. Try to submit the form without email and verify that a relevant error message appears.
+		4. Try to submit the form with an invalid email address and verify that a relevant error message appears. 
+		5. Try to submit the form with all inputs valid and verify that no error message appears.
+
+4. User "L" wants to have connection to social media accounts. The following steps needs to be conduct in that case:
+	1. Go to the bottom of any page to verify if the social media icons exists.
+	2. Click/tap on the selected social media icon to verify that the link works.
+
+#### Manual Testing Bugs
+
+The only significant issue I encountered during the manual testing was related to the video on iphone. The video failed to play. After some research I managed to make it work by changing the video settings suitable to iphone requirements and changing the html attributes of video tag. 
+
+### Automate Testing
+
+The automate testing was conduct using the following tools:
+
 - Chrome Lighthouse
-- Chrome | Firefox | Safari | Internet Explorer
-- desktop | mobile | tablet
-- html & css checker <https://validator.w3.org/nu/>
 
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The Lighthouse is an open-source automated tool that audits website for performance, accessibility, SEO and more. The website score was constantly satisfactory with recent results as follows:
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+```
+- Performance at 90
+- Progressive Web App at 55
+- Accessibility at 88
+- Best Practices at 88
+- SEO at 78
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+highest score is 100
+```
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+In order to run the Lighthouse tool please use the Chrome Developer Tools and locate the Audits tab on the right hand corner of the DevTools window.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- Online Html & Css checker
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The above tool was run in order to validate the HTML and CSS semantic and non-semantic elements and check for any potential problems.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
+In order to run the checker please use the following [link](https://validator.w3.org/nu/) and paste the code in.
+
+#### Automated Testing Bugs
+
+There were no significant issues during the automated testing. The low DevTools audit score for the Progressive Web App (score at 55) is not really an issue as it relates to more complex web pages that should offer an offline capabilities, push notifications, etc.
 
 ## Deployment
 
-<!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The website was deployed to [Netlify](https://www.netlify.com/) with the following steps:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally. -->
-
-
+1. Connecting & authorizing GitHub account with Netlify.
+2. Choosing the site repository.
+3. Selecting Branch to deploy.
+4. Deploying the website.
+	
 ## Credits
 
 ### Content
 
 - Burger Menu bars animation was inspired by [Julien Melissas' article on "Animated x icon for the Bootstrap navbar-toggle"](https://julienmelissas.com/animated-x-icon-for-the-bootstrap-navbar-toggle/)
-- Website colors selecion was inspired by [99designs's article on "The logo colors of real estate"](https://99designs.ie/logo-design/psychology-of-color/real-estate)
+- Website colors selection was inspired by [99designs's article on "The logo colors of real estate"](https://99designs.ie/logo-design/psychology-of-color/real-estate)
 
 ### Media
 
