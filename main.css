@@ -1,198 +1,198 @@
 /****************************Main CSS*/
 
 body {
-	max-width: 1200px;
-	margin: 0 auto;
-	color: #382771;
-	padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #382771;
+    padding-top: 50px;
 }
 
 .padding-square {
-	padding: 30px;
+    padding: 30px;
 }
 
 a, a:focus, a:hover {
-	text-decoration: none;
-	color: #382771;
+    text-decoration: none;
+    color: #382771;
 }
 
 form {
-	padding-top: 30px;
+    padding-top: 30px;
 }
 
 /****************************Typography*/
 
 h1, h2, h3, h4, p {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .font-roboto {
-	font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .font-abril-fatface {
-	font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .font-work-sans {
-	font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /****************************Navbar*/
 
 .navbar-default {
-	background-color: #ffffff;
-	border-style: none;
+    background-color: #ffffff;
+    border-style: none;
 }
 
 .navbar {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 /**************Logo Input and size changes*/
 
 .navbar-brand {
-	padding-top: 5px;
+    padding-top: 5px;
 }
 
 .navbar-brand>img {
-	height: 40px;
-	width: auto;
+    height: 40px;
+    width: auto;
 }
 
 /**************Burger menu changes*/
 
 .navbar-default .navbar-toggle {
-	border-color: transparent;
+    border-color: transparent;
 }
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:active {
-	background-color: transparent;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-toggle .top-bar,
 .navbar-default .navbar-toggle .middle-bar,
 .navbar-default .navbar-toggle .bottom-bar {
-	background: #382771;
+    background: #382771;
 }
 
 .navbar-toggle .icon-bar {
-	width: 30px;
-	height: 3px;
+    width: 30px;
+    height: 3px;
 }
 
 /**************Burger menu animation*/
 
 .navbar-toggle:focus .icon-bar,
 .navbar-toggle:active .icon-bar {
-  	transition: all 0.2s ease-in-out;
-  	-moz-transition: all 0.2s ease-in-out;
-  	-ms-transition: all 0.2s ease-in-out;
-  	-webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
 }
 
 .navbar-toggle:focus .top-bar,
 .navbar-toggle:active .top-bar {
-  	transform: rotate(38deg);
-  	-moz-transform: rotate(38deg);
-  	-ms-transform: rotate(38deg);
-  	-webkit-transform: rotate(38deg);
-  	transform-origin: 10% 10%;
-  	-moz-transform-origin: 10% 10%;
-  	-ms-transform-origin: 10% 10%;
-  	-webkit-transform-origin: 10% 10%;
+    transform: rotate(38deg);
+    -moz-transform: rotate(38deg);
+    -ms-transform: rotate(38deg);
+    -webkit-transform: rotate(38deg);
+    transform-origin: 10% 10%;
+    -moz-transform-origin: 10% 10%;
+    -ms-transform-origin: 10% 10%;
+    -webkit-transform-origin: 10% 10%;
 }
 
 .navbar-toggle:focus .middle-bar,
 .navbar-toggle:active .middle-bar {
- 	opacity: 0;
+    opacity: 0;
 }
 
 .navbar-toggle:focus .bottom-bar,
 .navbar-toggle:active .bottom-bar {
-  	transform: rotate(-38deg);
-  	-moz-transform: rotate(-38deg);
-  	-ms-transform: rotate(-38deg);
-  	-webkit-transform: rotate(-38deg);
-  	transform-origin: 10% 90%;
-  	-moz-transform-origin: 10% 90%;
-  	-ms-transform-origin: 10% 90%;
-  	-webkit-transform-origin: 10% 90%;
+    transform: rotate(-38deg);
+    -moz-transform: rotate(-38deg);
+    -ms-transform: rotate(-38deg);
+    -webkit-transform: rotate(-38deg);
+    transform-origin: 10% 90%;
+    -moz-transform-origin: 10% 90%;
+    -ms-transform-origin: 10% 90%;
+    -webkit-transform-origin: 10% 90%;
 }
 
 .navbar-toggle .collapsed .top-bar {
-  	transform: rotate(0);
-  	-moz-transform: rotate(0);
-  	-ms-transform: rotate(0);
-  	-webkit-transform: rotate(0);
+    transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
 }
 
 .navbar-toggle .collapsed .middle-bar {
-  	opacity: 1;
+    opacity: 1;
 }
 
 .navbar-toggle .collapsed .bottom-bar {
-  	transform: rotate(0);
-  	-moz-transform: rotate(0);
-  	-ms-transform: rotate(0);
-  	-webkit-transform: rotate(0);
+    transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
 }
 
 /************** Devices > 768px */
 
 @media (min-width: 768px) {
-	.navbar-brand {
-		float: none;
-		display: flex;
-		justify-content: center;
-	}
-	.navbar-nav {
-		float: none;
-		display: flex;
-		justify-content: center;
-	}
+    .navbar-brand {
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-nav {
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /**************Menu List items*/
 
 .navbar-nav a {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 .navbar-collapse {
-	border-style: none;
+    border-style: none;
 }
 
 .current {
-	border-bottom: 2px solid;
+    border-bottom: 2px solid;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover  {
-	background: none;
-	color: #382771;
+    background: none;
+    color: #382771;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #382771;
-	transition: all .2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-  	-ms-transition: all 0.2s ease-in-out;
-  	-webkit-transition: all 0.2s ease-in-out;
+    color: #382771;
+    transition: all .2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
 }
 
 .navbar-default .navbar-nav>li>a:active,
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-	background: none;
-	color: #382771;
-	transform: scale(1.1);
-	-moz-transform: scale(1.1);
-  	-ms-transform: scale(1.1);
-  	-webkit-transform: scale(1.1);
+    background: none;
+    color: #382771;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 
 /****************************HOME*/
@@ -200,185 +200,185 @@ h1, h2, h3, h4, p {
 /****************************Section Video*/
 
 .top-home-content {
-	padding: 0;
-	min-height: 624px;
+    padding: 0;
+    min-height: 624px;
 }
 
 .video-full {
-	margin: 0 auto;
-	justify-content: center;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .video-full video {
-	min-height: 600px;
-	width: auto;
-	border-style: none;
-	object-fit: cover;
+    min-height: 600px;
+    width: auto;
+    border-style: none;
+    object-fit: cover;
 }
 
 .embed-responsive {
-	overflow: visible;
+    overflow: visible;
 }
 
 .text-welcome {
-	height: 674px;
-	display: flex;
-	justify-content: center;
-	position: absolute;
-	text-align: center;
-	max-width: 1200px;
-	top: 50px;
+    height: 674px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    max-width: 1200px;
+    top: 50px;
 }
 
 .text-welcome>h1 {
-	font-size: 50px;
-	color: #ffffff;
-	margin: 0 auto;
-	align-self: center;
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0 auto;
+    align-self: center;
 }
 
 
 /****************************Section Services*/
 
 .img-services {
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .img-services img {
-	height: 100px;
-	width: auto;
+    height: 100px;
+    width: auto;
 }
 
 #aerial-logo {
-	height: 130px;
-	width: auto;
+    height: 130px;
+    width: auto;
 }
 
 /****************************Footer*/
 
 .img-btm img {
-	width: 100%;
-	height: auto;
-	padding-top: 30px;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
 }
 
 .button-btm {
-	padding-bottom: 50px;
-	padding-top: 10px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-default {
-	background: #382771;
-	border-color: #382771;
-	color: #ffffff;
-	box-shadow: 0px 16px 18px -10px rgba(56,39,113,0.4);
-	border-width: 2px;
+    background: #382771;
+    border-color: #382771;
+    color: #ffffff;
+    box-shadow: 0px 16px 18px -10px rgba(56,39,113,0.4);
+    border-width: 2px;
 }
 
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
 .btn-default:active:hover {
-	background: #ffffff; 
-	color: #382771;
-	border-color: #382771;
-	box-shadow: none;
+    background: #ffffff; 
+    color: #382771;
+    border-color: #382771;
+    box-shadow: none;
 }
 
 i {
-	font-size: 28px;
-	color: #382771;
-	padding-top: 30px;
-	transition: all 0.2s ease-in-out;
+    font-size: 28px;
+    color: #382771;
+    padding-top: 30px;
+    transition: all 0.2s ease-in-out;
 }
 
 i:hover {
-	transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .site-by {
-	color: inherit;
-	line-height: 30px;
-	padding: 30px 0;
+    color: inherit;
+    line-height: 30px;
+    padding: 30px 0;
 }
 
 .site-by>span:hover {
-	 border-bottom: 2px solid;
+     border-bottom: 2px solid;
 }
 
 .footer-logo {
-	height: 50px;
-	padding-bottom: 10px;
-	width: auto;
+    height: 50px;
+    padding-bottom: 10px;
+    width: auto;
 }
 
 /****************************ABOUT*/
 
 .img-container img {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
 
 blockquote {
-	font-size: 14px;
-	border-left-width: 2px;
-	border-left-color: rgba(56,39,113,0.5);
+    font-size: 14px;
+    border-left-width: 2px;
+    border-left-color: rgba(56,39,113,0.5);
 }
 
 .blockquote-reverse {
-	font-size: 14px;
-	border-right-width: 2px;
-	border-right-color: rgba(56,39,113,0.5);
-	text-align: center;
+    font-size: 14px;
+    border-right-width: 2px;
+    border-right-color: rgba(56,39,113,0.5);
+    text-align: center;
 }
 
 blockquote footer {
-	font-size: 90%;
-	color: rgba(56,39,113,0.5);
+    font-size: 90%;
+    color: rgba(56,39,113,0.5);
 }
 
 /****************************CONTACT*/
 
 label {
-	float: left;
+    float: left;
 }
 
 .form-control {
-	color: #382771;
-	border-color: #382771;
+    color: #382771;
+    border-color: #382771;
 }
 
 /****************************BOOKING*/
 
 .checkbox label {
-	clear: both;
-	padding: 10px 0;
-	font-size: 18px;
+    clear: both;
+    padding: 10px 0;
+    font-size: 18px;
 }
 
 input[type=checkbox] {
-	margin: 5px 0 0;
+    margin: 5px 0 0;
 }
 
 /****************************SERVICES*/
 
 .vid-container {
-	width: 100%;
-	height: auto;
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .player {
-	width: 100%;
-	max-width: 1120px;
-	height: 630px;
-	overflow: hidden;
-	border-style: none;
+    width: 100%;
+    max-width: 1120px;
+    height: 630px;
+    overflow: hidden;
+    border-style: none;
 }
